@@ -1,0 +1,3 @@
+rootProject.name = 'yourCloud'
+
+include ":server", ":client", ":common"

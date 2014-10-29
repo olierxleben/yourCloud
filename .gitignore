@@ -1,0 +1,13 @@
+# intelliJ IDE stuff, if no on else uses it
+.idea/
+*.ipr
+*.iws
+*.iml
+
+out/
+
+# local gradle stuff
+.gradle/
+build/
+
+#netbeans stuff
