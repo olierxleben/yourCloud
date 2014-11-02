@@ -1,3 +1,14 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
 rootProject.name = 'yourCloud'
 
-include ":server", ":client", ":test"
+// include
+if (Os.isFamily(Os.FAMILY_MAC)) {
+    include ":client-osx"
+}
+
+if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+    // TODO windows / specific subprojects
+}
+
+include ":server", ":client"

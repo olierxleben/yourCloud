@@ -1,0 +1,19 @@
+// stuff for all subprojects
+/*
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+}
+
+sourceCompatibility = 1.8
+version = '0.1'
+
+apply plugin: 'application'
+
+mainClassName = "de.hsos.oe.HelloWorld"*/
