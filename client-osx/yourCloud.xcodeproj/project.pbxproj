@@ -7,44 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		926E0B851A063ADB00A2C25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E0B841A063ADB00A2C25C /* AppDelegate.swift */; };
-		926E0B871A063ADB00A2C25C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E0B861A063ADB00A2C25C /* ViewController.swift */; };
-		926E0B891A063ADB00A2C25C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926E0B881A063ADB00A2C25C /* Images.xcassets */; };
-		926E0B8C1A063ADB00A2C25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926E0B8A1A063ADB00A2C25C /* Main.storyboard */; };
-		926E0B981A063ADB00A2C25C /* yourCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E0B971A063ADB00A2C25C /* yourCloudTests.swift */; };
+		926E0BD91A07551D00A2C25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E0BD81A07551D00A2C25C /* AppDelegate.swift */; };
+		926E0BDB1A07551D00A2C25C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926E0BDA1A07551D00A2C25C /* Images.xcassets */; };
+		926E0BDE1A07551D00A2C25C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926E0BDC1A07551D00A2C25C /* MainMenu.xib */; };
+		926E0BEA1A07551D00A2C25C /* yourCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926E0BE91A07551D00A2C25C /* yourCloudTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		926E0B921A063ADB00A2C25C /* PBXContainerItemProxy */ = {
+		926E0BE41A07551D00A2C25C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 926E0B771A063ADB00A2C25C /* Project object */;
+			containerPortal = 926E0BCB1A07551D00A2C25C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 926E0B7E1A063ADB00A2C25C;
+			remoteGlobalIDString = 926E0BD21A07551D00A2C25C;
 			remoteInfo = yourCloud;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		926E0B7F1A063ADB00A2C25C /* yourCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yourCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		926E0B831A063ADB00A2C25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926E0B841A063ADB00A2C25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		926E0B861A063ADB00A2C25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		926E0B881A063ADB00A2C25C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		926E0B8B1A063ADB00A2C25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		926E0B911A063ADB00A2C25C /* yourCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yourCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		926E0B961A063ADB00A2C25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926E0B971A063ADB00A2C25C /* yourCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourCloudTests.swift; sourceTree = "<group>"; };
+		926E0BD31A07551D00A2C25C /* yourCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yourCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926E0BD71A07551D00A2C25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926E0BD81A07551D00A2C25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		926E0BDA1A07551D00A2C25C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		926E0BDD1A07551D00A2C25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		926E0BE31A07551D00A2C25C /* yourCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yourCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		926E0BE81A07551D00A2C25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926E0BE91A07551D00A2C25C /* yourCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourCloudTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		926E0B7C1A063ADB00A2C25C /* Frameworks */ = {
+		926E0BD01A07551D00A2C25C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		926E0B8E1A063ADB00A2C25C /* Frameworks */ = {
+		926E0BE01A07551D00A2C25C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,57 +52,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		926E0B761A063ADB00A2C25C = {
+		926E0BCA1A07551D00A2C25C = {
 			isa = PBXGroup;
 			children = (
-				926E0B811A063ADB00A2C25C /* yourCloud */,
-				926E0B941A063ADB00A2C25C /* yourCloudTests */,
-				926E0B801A063ADB00A2C25C /* Products */,
+				926E0BD51A07551D00A2C25C /* yourCloud */,
+				926E0BE61A07551D00A2C25C /* yourCloudTests */,
+				926E0BD41A07551D00A2C25C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		926E0B801A063ADB00A2C25C /* Products */ = {
+		926E0BD41A07551D00A2C25C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				926E0B7F1A063ADB00A2C25C /* yourCloud.app */,
-				926E0B911A063ADB00A2C25C /* yourCloudTests.xctest */,
+				926E0BD31A07551D00A2C25C /* yourCloud.app */,
+				926E0BE31A07551D00A2C25C /* yourCloudTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		926E0B811A063ADB00A2C25C /* yourCloud */ = {
+		926E0BD51A07551D00A2C25C /* yourCloud */ = {
 			isa = PBXGroup;
 			children = (
-				926E0B841A063ADB00A2C25C /* AppDelegate.swift */,
-				926E0B861A063ADB00A2C25C /* ViewController.swift */,
-				926E0B881A063ADB00A2C25C /* Images.xcassets */,
-				926E0B8A1A063ADB00A2C25C /* Main.storyboard */,
-				926E0B821A063ADB00A2C25C /* Supporting Files */,
+				926E0BD81A07551D00A2C25C /* AppDelegate.swift */,
+				926E0BDA1A07551D00A2C25C /* Images.xcassets */,
+				926E0BDC1A07551D00A2C25C /* MainMenu.xib */,
+				926E0BD61A07551D00A2C25C /* Supporting Files */,
 			);
 			path = yourCloud;
 			sourceTree = "<group>";
 		};
-		926E0B821A063ADB00A2C25C /* Supporting Files */ = {
+		926E0BD61A07551D00A2C25C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				926E0B831A063ADB00A2C25C /* Info.plist */,
+				926E0BD71A07551D00A2C25C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		926E0B941A063ADB00A2C25C /* yourCloudTests */ = {
+		926E0BE61A07551D00A2C25C /* yourCloudTests */ = {
 			isa = PBXGroup;
 			children = (
-				926E0B971A063ADB00A2C25C /* yourCloudTests.swift */,
-				926E0B951A063ADB00A2C25C /* Supporting Files */,
+				926E0BE91A07551D00A2C25C /* yourCloudTests.swift */,
+				926E0BE71A07551D00A2C25C /* Supporting Files */,
 			);
 			path = yourCloudTests;
 			sourceTree = "<group>";
 		};
-		926E0B951A063ADB00A2C25C /* Supporting Files */ = {
+		926E0BE71A07551D00A2C25C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				926E0B961A063ADB00A2C25C /* Info.plist */,
+				926E0BE81A07551D00A2C25C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,13 +109,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		926E0B7E1A063ADB00A2C25C /* yourCloud */ = {
+		926E0BD21A07551D00A2C25C /* yourCloud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926E0B9B1A063ADB00A2C25C /* Build configuration list for PBXNativeTarget "yourCloud" */;
+			buildConfigurationList = 926E0BED1A07551D00A2C25C /* Build configuration list for PBXNativeTarget "yourCloud" */;
 			buildPhases = (
-				926E0B7B1A063ADB00A2C25C /* Sources */,
-				926E0B7C1A063ADB00A2C25C /* Frameworks */,
-				926E0B7D1A063ADB00A2C25C /* Resources */,
+				926E0BCF1A07551D00A2C25C /* Sources */,
+				926E0BD01A07551D00A2C25C /* Frameworks */,
+				926E0BD11A07551D00A2C25C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -126,46 +123,46 @@
 			);
 			name = yourCloud;
 			productName = yourCloud;
-			productReference = 926E0B7F1A063ADB00A2C25C /* yourCloud.app */;
+			productReference = 926E0BD31A07551D00A2C25C /* yourCloud.app */;
 			productType = "com.apple.product-type.application";
 		};
-		926E0B901A063ADB00A2C25C /* yourCloudTests */ = {
+		926E0BE21A07551D00A2C25C /* yourCloudTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926E0B9E1A063ADB00A2C25C /* Build configuration list for PBXNativeTarget "yourCloudTests" */;
+			buildConfigurationList = 926E0BF01A07551D00A2C25C /* Build configuration list for PBXNativeTarget "yourCloudTests" */;
 			buildPhases = (
-				926E0B8D1A063ADB00A2C25C /* Sources */,
-				926E0B8E1A063ADB00A2C25C /* Frameworks */,
-				926E0B8F1A063ADB00A2C25C /* Resources */,
+				926E0BDF1A07551D00A2C25C /* Sources */,
+				926E0BE01A07551D00A2C25C /* Frameworks */,
+				926E0BE11A07551D00A2C25C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				926E0B931A063ADB00A2C25C /* PBXTargetDependency */,
+				926E0BE51A07551D00A2C25C /* PBXTargetDependency */,
 			);
 			name = yourCloudTests;
 			productName = yourCloudTests;
-			productReference = 926E0B911A063ADB00A2C25C /* yourCloudTests.xctest */;
+			productReference = 926E0BE31A07551D00A2C25C /* yourCloudTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		926E0B771A063ADB00A2C25C /* Project object */ = {
+		926E0BCB1A07551D00A2C25C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Oliver Erxleben";
 				TargetAttributes = {
-					926E0B7E1A063ADB00A2C25C = {
+					926E0BD21A07551D00A2C25C = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					926E0B901A063ADB00A2C25C = {
+					926E0BE21A07551D00A2C25C = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 926E0B7E1A063ADB00A2C25C;
+						TestTargetID = 926E0BD21A07551D00A2C25C;
 					};
 				};
 			};
-			buildConfigurationList = 926E0B7A1A063ADB00A2C25C /* Build configuration list for PBXProject "yourCloud" */;
+			buildConfigurationList = 926E0BCE1A07551D00A2C25C /* Build configuration list for PBXProject "yourCloud" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -173,28 +170,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 926E0B761A063ADB00A2C25C;
-			productRefGroup = 926E0B801A063ADB00A2C25C /* Products */;
+			mainGroup = 926E0BCA1A07551D00A2C25C;
+			productRefGroup = 926E0BD41A07551D00A2C25C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				926E0B7E1A063ADB00A2C25C /* yourCloud */,
-				926E0B901A063ADB00A2C25C /* yourCloudTests */,
+				926E0BD21A07551D00A2C25C /* yourCloud */,
+				926E0BE21A07551D00A2C25C /* yourCloudTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		926E0B7D1A063ADB00A2C25C /* Resources */ = {
+		926E0BD11A07551D00A2C25C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926E0B891A063ADB00A2C25C /* Images.xcassets in Resources */,
-				926E0B8C1A063ADB00A2C25C /* Main.storyboard in Resources */,
+				926E0BDB1A07551D00A2C25C /* Images.xcassets in Resources */,
+				926E0BDE1A07551D00A2C25C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		926E0B8F1A063ADB00A2C25C /* Resources */ = {
+		926E0BE11A07551D00A2C25C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,46 +201,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		926E0B7B1A063ADB00A2C25C /* Sources */ = {
+		926E0BCF1A07551D00A2C25C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926E0B871A063ADB00A2C25C /* ViewController.swift in Sources */,
-				926E0B851A063ADB00A2C25C /* AppDelegate.swift in Sources */,
+				926E0BD91A07551D00A2C25C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		926E0B8D1A063ADB00A2C25C /* Sources */ = {
+		926E0BDF1A07551D00A2C25C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926E0B981A063ADB00A2C25C /* yourCloudTests.swift in Sources */,
+				926E0BEA1A07551D00A2C25C /* yourCloudTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		926E0B931A063ADB00A2C25C /* PBXTargetDependency */ = {
+		926E0BE51A07551D00A2C25C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 926E0B7E1A063ADB00A2C25C /* yourCloud */;
-			targetProxy = 926E0B921A063ADB00A2C25C /* PBXContainerItemProxy */;
+			target = 926E0BD21A07551D00A2C25C /* yourCloud */;
+			targetProxy = 926E0BE41A07551D00A2C25C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		926E0B8A1A063ADB00A2C25C /* Main.storyboard */ = {
+		926E0BDC1A07551D00A2C25C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				926E0B8B1A063ADB00A2C25C /* Base */,
+				926E0BDD1A07551D00A2C25C /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		926E0B991A063ADB00A2C25C /* Debug */ = {
+		926E0BEB1A07551D00A2C25C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		926E0B9A1A063ADB00A2C25C /* Release */ = {
+		926E0BEC1A07551D00A2C25C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +316,7 @@
 			};
 			name = Release;
 		};
-		926E0B9C1A063ADB00A2C25C /* Debug */ = {
+		926E0BEE1A07551D00A2C25C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		926E0B9D1A063ADB00A2C25C /* Release */ = {
+		926E0BEF1A07551D00A2C25C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -342,7 +338,7 @@
 			};
 			name = Release;
 		};
-		926E0B9F1A063ADB00A2C25C /* Debug */ = {
+		926E0BF11A07551D00A2C25C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -362,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		926E0BA01A063ADB00A2C25C /* Release */ = {
+		926E0BF21A07551D00A2C25C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,32 +377,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		926E0B7A1A063ADB00A2C25C /* Build configuration list for PBXProject "yourCloud" */ = {
+		926E0BCE1A07551D00A2C25C /* Build configuration list for PBXProject "yourCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				926E0B991A063ADB00A2C25C /* Debug */,
-				926E0B9A1A063ADB00A2C25C /* Release */,
+				926E0BEB1A07551D00A2C25C /* Debug */,
+				926E0BEC1A07551D00A2C25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		926E0B9B1A063ADB00A2C25C /* Build configuration list for PBXNativeTarget "yourCloud" */ = {
+		926E0BED1A07551D00A2C25C /* Build configuration list for PBXNativeTarget "yourCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				926E0B9C1A063ADB00A2C25C /* Debug */,
-				926E0B9D1A063ADB00A2C25C /* Release */,
+				926E0BEE1A07551D00A2C25C /* Debug */,
+				926E0BEF1A07551D00A2C25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		926E0B9E1A063ADB00A2C25C /* Build configuration list for PBXNativeTarget "yourCloudTests" */ = {
+		926E0BF01A07551D00A2C25C /* Build configuration list for PBXNativeTarget "yourCloudTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				926E0B9F1A063ADB00A2C25C /* Debug */,
-				926E0BA01A063ADB00A2C25C /* Release */,
+				926E0BF11A07551D00A2C25C /* Debug */,
+				926E0BF21A07551D00A2C25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 926E0B771A063ADB00A2C25C /* Project object */;
+	rootObject = 926E0BCB1A07551D00A2C25C /* Project object */;
 }

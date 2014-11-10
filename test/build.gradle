@@ -1,5 +1,4 @@
 // stuff for all subprojects
-/*
 apply plugin: 'java'
 
 repositories {
@@ -16,4 +15,4 @@ version = '0.1'
 
 apply plugin: 'application'
 
-mainClassName = "de.hsos.oe.HelloWorld"*/
+mainClassName = "de.hsos.oe.HelloWorld"

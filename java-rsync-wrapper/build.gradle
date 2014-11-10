@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+version = '0.1'
+
+/*
+apply plugin: 'application'
+
+mainClassName = "de.hsos.oe.HelloWorld"*/
