@@ -6,12 +6,5 @@ allprojects {
 subprojects {
 }
 
-project(':server') {
-    // server stuff
-}
-
-project(':client') {
-    // client stuff
-}
 
 

@@ -11,4 +11,4 @@ if (Os.isFamily(Os.FAMILY_WINDOWS)) {
     // TODO windows / specific subprojects
 }
 
-include ":server", ":client", ":java-rsync-wrapper"
+include ":server", ":java-rsync-wrapper", ":test"
