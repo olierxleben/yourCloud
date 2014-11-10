@@ -4,7 +4,6 @@ import de.yourcloud.client.core.jrsync.utils.LogLevel;
 import de.yourcloud.client.core.jrsync.utils.JRSResult;
 import de.yourcloud.client.core.jrsync.utils.JRSSignature;
 
-
 /**
  *
  */
