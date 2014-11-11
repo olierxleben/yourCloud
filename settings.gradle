@@ -9,6 +9,7 @@ if (Os.isFamily(Os.FAMILY_MAC)) {
 
 if (Os.isFamily(Os.FAMILY_WINDOWS)) {
     // TODO windows / specific subprojects
+    include ":client-win"
 }
 
-include ":server", ":java-rsync-wrapper", ":test"
+include ":server", "client-core", ":java-rsync-wrapper", ":test"
